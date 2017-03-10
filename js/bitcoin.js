@@ -31,7 +31,7 @@ $(document).ready(function() {
 		},
 
 		error : function(xhr, status, err) {
-			$('#bitcoin_block_hash').append(err+" N/A");
+			$('#bitcoin_network_hash').append(err+" N/A");
 		}
 	});
 });
