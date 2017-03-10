@@ -46,11 +46,11 @@ $(document).ready(function() {
 		async : false,
 
 		success : function(data) {
-			$('#bitcoin_blocks').append(data.market_price_usd);
+			$('#bitcoin_usd_price').append(data.market_price_usd);
 		},
 
 		error : function(xhr, status, err) {
-			$('#bitcoin_blocks').append(err+" N/A");
+			$('#bitcoin_usd_price').append(err+" N/A");
 		}
 	});
 });
