@@ -10,7 +10,7 @@ $(document).ready(function() {
 		success : function(data) {
 			$('#bitcoin_network_hash').append(data.minutes_between_blocks);
 			$('#bitcoin_usd_price').append(data.market_price_usd);
-			$('#bitcoin_blocks').append(data.estimated_transaction_volume_usd);
+			$('#bitcoin_blocks').appenddata.minutes_between_blocks);
 			$('#bitcoin_block_number').append(data.n_blocks_total);
 		},
 
